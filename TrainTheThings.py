@@ -45,7 +45,7 @@ def normalize_state(state):
 
 # 22 state based things
 # 8 control based things
-load = True
+load = False  # Set to true to start where you left off
 models = []
 game = gameFromFile("Replay")  # Replay File path without extension
 if not load:
